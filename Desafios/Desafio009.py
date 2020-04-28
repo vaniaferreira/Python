@@ -1,0 +1,27 @@
+#Faça um programa que leia um inteiro qualquer e mostre na tela a sua tabuada
+
+n1 = int(input('Informe um número inteiro: '))
+um = int(n1*1)
+dois = int(n1 * 2)
+tres = int(n1 * 3)
+quatro = int(n1 * 4)
+cinco = int(n1 * 5)
+seis = int(n1 * 6)
+sete = int(n1 * 7)
+oito = int(n1 * 8)
+nove = int(n1 * 9)
+dez = int(n1 *10)
+print('-'*12)
+print('{} x {:2} = {:2} '.format(n1,1, n1*1))
+print('{} x {:2} = {}'.format(n1,2,n1*2))
+print('{} x {:2} = {}'.format(n1,3,n1*3))
+print('{} x {:2} = {}'.format(n1,4,n1*4))
+print('{} x {:2} = {}'.format(n1,5,n1*5))
+print('{} x {:2} = {}'.format(n1,6,n1*6))
+print('{} x {:2} = {}'.format(n1,7,n1*7))
+print('{} x {:2} = {}'.format(n1,8,n1*8))
+print('{} x {:2} = {}'.format(n1,9,n1*9))
+print('{} x {:2} = {}'.format(n1,10,n1*10))
+
+
+print('-'*12)
